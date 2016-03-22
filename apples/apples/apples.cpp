@@ -5,10 +5,8 @@
 int main()
 {
 	int answer = 0;
-
 	scanf_s("%d", &answer);//принимаешь число
 		char art [10];
-		fgets(art, 10, stdin);
 	if (answer == 1)
 	{
 		art [10] = 'A';
